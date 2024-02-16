@@ -3,7 +3,9 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Retorna el arreglo.
   // Tu código:
   
-
+  array.push(elemento);
+  return array; 
+  
 }
 
 module.exports = agregarItemAlFinalDelArray;
