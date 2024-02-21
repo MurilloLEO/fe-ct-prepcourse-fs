@@ -3,7 +3,7 @@ const agregarNuevaPropiedad = (objeto, propiedad, valor) => {
   // Tu código:
   
     objeto[propiedad] = valor;
-    // Retorna el objeto actualizado
+
     return objeto;
 
 }
