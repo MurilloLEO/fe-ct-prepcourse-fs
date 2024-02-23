@@ -4,8 +4,21 @@ function encontrarNumeroFaltante(numeros) {
   // y retórnalo.
   // Devuelve null si el aray es vacío o si no hay números faltantes.
   // Tu código:
-  var noSecuencia=0;
-  for(var i=0; i<)
+  if (numeros.length === 0) {
+    return null;
+  }
+
+  //numeros.sort(function(a, b) {
+  //  return a - b;
+  //});
+
+  for (var i = 0; i < numeros.length - 1; i++) {
+    if (numeros[i + 1] !== numeros[i] + 1) {
+      return numeros[i] + 1;
+    }
+  }
+
+  return null;
 
 }
 
