@@ -30,7 +30,7 @@ function numberOfCharacters(string) {
 
     var arrayOrdenado = string.split("").sort();
     var contador = 1;
-    objeto = {};
+    var objeto = {};
 
     for (let i = 0; i< arrayOrdenado.length; i++) {
         if(arrayOrdenado[i]===arrayOrdenado[i+1]){
